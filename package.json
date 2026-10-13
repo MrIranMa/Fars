@@ -1,7 +1,7 @@
 {
-  "name": "blue-knight-replit",
+  "name": "fars-cdn-replit",
   "version": "1.0.0",
-  "description": "Blue Knight Gate - multi-protocol proxy and web panel (Replit edition)",
+  "description": "FarsCDN Gate - multi-protocol proxy and web panel",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,6 +13,6 @@
   "engines": {
     "node": ">=18"
   },
-  "author": "Blue Knight Net",
+  "author": "FarsCDN Net",
   "license": "MIT"
 }
