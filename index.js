@@ -31,7 +31,7 @@ const BK_CONFIG = {
   sniHy2: "www.google.com",
   massProxyUrl: "https://www.gstatic.com",
   enable: {
-    hysteria2: false,
+    hysteria2: true,
     vlessWs: true,
     vlessWsTls: true,
     vlessHttpUpgrade: true,
@@ -41,19 +41,19 @@ const BK_CONFIG = {
     vlessGrpcTls: true,       // TLS + ALPN h2 on the shared port (self-hosted only)
     trojanWs: true,
     trojanWsTls: true,
-    trojanGrpcTls: false,     // shares ALPN h2 with VLESS-gRPC-TLS: only used when vlessGrpcTls is off
+    trojanGrpcTls: true,     // shares ALPN h2 with VLESS-gRPC-TLS: only used when vlessGrpcTls is off
     vmessWsTls: true,
     vmessWs: true,
     vlessXhttp: true,         // needs Xray-core (downloaded automatically)
     ssWs: true,               // Shadowsocks over WebSocket (v2ray-plugin compatible, Xray-core)
-    reality: false,
-    shadowTlsVless: false,
-    shadowsocks: false,
-    wireguard: false,
-    tuic: false,
-    socks: false,
-    httpProxy: false,
-    argo: false
+    reality: true,
+    shadowTlsVless: true,
+    shadowsocks: true,
+    wireguard: true,
+    tuic: true,
+    socks: true,
+    httpProxy: true,
+    argo: true
   },
   reality: {
     target: "www.microsoft.com",
